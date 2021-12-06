@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#store {
+  height: 100%;
+}
+
+.bloc {
+  width: calc(50vw - 43px);
+  float: left;
+  margin: 12px;
+  border: thick double #32a1ce;
+}
+
+.sub-bloc {
+  width: calc(25vw - 52px);
+  float: left;
+  margin: 15px;
+}
+
+#img-store {
+  width: 30%;
+}
+
+.store-open {
+  color: green;
+}
+
+.store-close {
+  color: red;
+}
+
+#manage-store {
+  background-color: aliceblue;
+  padding: 10px;
+}
